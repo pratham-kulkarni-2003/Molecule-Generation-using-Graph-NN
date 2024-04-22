@@ -1,5 +1,5 @@
 # Molecule-Generation-using-Graph-NN
-Generating molecules using Graph Neural Networks trained on the QM9 dataset.
+Generating molecules using Graph Neural Networks trained on the QM9- Quantum Mechanics dataset.
 
 Trained three types of molecule properties:
 1. Molecule Linker
