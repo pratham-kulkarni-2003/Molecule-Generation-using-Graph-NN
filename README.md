@@ -6,8 +6,8 @@ Trained three types of molecule properties:
 2. Bond classifier
 3. Node and edge generator
 
-Note there are references to other github repositories 
-https://doi.org/10.1016/j.neucom.2021.04.039
+Pls git clone the other files from this repository:
+https://github.com/PietroMSB/MG2N2/tree/master
 
 # Requirements
 To run the code, you will need a python>2.6 (Note: python 3.7 worked for us) distribution with the following python packages:
@@ -37,3 +37,7 @@ The graph preprocessing operations are computationally demanding and take some t
 
 # graph generation
 The script "generate_graphs.py" generates a batch of graphs, exploiting the three modules which had been previously saved in the "Temp/Modules" folder. The hyperparameters of the modules are declared at the beginning of the script. At least one trained instance of each module is required to run this script.
+
+# References:
+
+https://doi.org/10.1016/j.neucom.2021.04.039
